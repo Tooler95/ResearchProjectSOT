@@ -2,16 +2,17 @@
 ## Installation Instructions
 
 Open the root directory in a terminal (Git Bash) and the backend directory in a separate terminal window
-
-In the ```/backend``` directory run the following to install and run the backend
-
-- ```npm install```
-- ```npm run watch```
+Root Directory - mycaloriecounter
 
 In the root directory run the following to install and run the frontend
 
-- ```npm install```
+- ```npm install``` -- only if node modules folder is not present
 - ```npm start```
+
+In the ```/backend``` directory run the following to install and run the backend
+
+- ```npm install``` -- only if node modules folder is not present
+- ```npm run watch or nodemon server```
 
 Go to ```http://localhost:4000/``` to test the backend (use a REST Client)
 
