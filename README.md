@@ -1,4 +1,5 @@
-Open the root directory in a terminal (Git Bash) and the backend directory in a separate terminal window Root Directory - mycaloriecounter
+Open the root directory in a terminal (Git Bash) and the backend directory in a separate terminal window.
+Root Directory - mycaloriecounter
 
 In the root directory run the following to install and run the frontend
 
