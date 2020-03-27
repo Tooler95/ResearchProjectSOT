@@ -1,0 +1,160 @@
+
+form{
+  padding: 1em;
+}
+.cardHead{
+  margin-top: 5em !important;
+  border: 2px solid #2460a7ff !important;
+  opacity: 90%;
+}
+.cardBody{
+  float: left;
+}
+.underImg
+{
+  padding-bottom: .2em !important;
+}
+
+.placeholderImage{
+background-color: blue !white;
+border: none !important;
+width: 300px !important;
+}
+.placeholder{
+  border: 1px solid #2460a7ff;
+}
+
+.userInfoContent{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: .75em;
+  font-family: sans-serif;
+}
+.userInfo{
+  margin-bottom: 1em;
+}
+.infoSpan{
+  margin-left: .5em;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.headSpan{
+  /* border: 1px solid black; */
+  /* padding: .4em; */
+}
+.points{
+  border: 1px solid #2460a7ff;
+  border-top: 0;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.points:hover{
+  color: transparent;
+    font-size: 15px;
+      padding-top: 3px !important;
+}
+.points.p1:hover:after {
+  content: 'Kcal';
+  color: black ;
+}
+.points.p2:hover:after {
+  content: 'Carb';
+  color: black ;
+}
+.points.p3:hover:after {
+  content: 'Pro';
+  color: black ;
+}
+.points.p4:hover:after {
+  content: 'Fat';
+  color: black ;
+}
+.myPoints{
+  border: 1px solid #2460a7ff;
+  color: black !im;
+  border-top: 0;
+  padding-top: .5em;
+}
+.refreshForm{
+  margin-top: .2em;
+  position: absolute;
+  right: 0;
+  margin-right: 1em;
+}
+.recommendations{
+  text-align: center;
+  font-size: 24px;
+}
+.profileBorder{
+  border-bottom: 1px solid #2460a7ff !important;
+}
+.profHead{
+    background-color: #2460a7ff !important;
+    color: white;
+    border: none !important;
+}
+.updated{
+  background-color: green !important;
+  font-family: sans-serif;
+  padding-top: 1em !important;
+}
+.updated2{
+    background-color: green !important;
+}
+.profDetails{
+  border: none !important;
+}
+.profileExit{
+  width: 3em !important;
+  background-color: black !important;
+  float: right !important;
+}
+
+.gameModal{
+  margin-top: .5em;
+  font-size: 28px;
+  font-weight: 600;
+  padding: .35em;
+  background-color: #2460a7ff;
+  color: white;
+  border-top-right-radius: 7.5em !important;
+  border-top-left-radius: 7.5em !important;
+  border-bottom-right-radius: 7.5em !important;
+  border-bottom-left-radius: 7.5em !important;
+}
+.gameModal:hover{
+  transform: scale(.90);
+  background-color: orange;
+  color: black;
+}
+.profileGamification{
+margin-top: 1em;
+margin-bottom: .5em;
+font-size: 20px;
+color: #2460a7ff;
+font-family: sans-serif;
+font-weight: 600;
+text-align: center;
+
+}
+.profileToggle{
+  text-align: center;
+}
+.btnCols{
+  text-align: center;
+  border: 1px solid white;
+  font-family: sans-serif;
+  padding: .5em;
+  color: white;
+  border-top-right-radius: 7.5em !important;
+  border-top-left-radius: 7.5em !important;
+  border-bottom-right-radius: 7.5em !important;
+  border-bottom-left-radius: 7.5em !important;
+}
+.on{
+    background-color: #2460a7ff;
+}
+.off{
+  color: #2460a7ff;
+  font-weight: 600;
+}

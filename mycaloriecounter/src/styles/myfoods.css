@@ -1,0 +1,298 @@
+/**
+ * @Date:   2020-03-12T10:37:52+00:00
+ * @Last modified time: 2020-03-12T14:42:03+00:00
+ */
+
+
+
+.filterButton{
+}
+.largeContainer{
+  background-color: #2460a7ff !important;
+  padding-left: 5% !important;
+  padding-right: 4% !important;
+  padding-bottom: 4%;
+
+  border-top-left-radius: 3em !important;
+  border-top-right-radius: 3em !important;
+  border-bottom-left-radius: 3em !important;
+  border-bottom-right-radius: 3em !important;
+}
+.foodTop{
+  border: 0 !important;
+  background-color: transparent !important;
+}
+.containerFooter{
+  margin-top: 1em;
+  border: 0 !important;
+  background-color: transparent !important;
+}
+.pageHead{
+  color: white;
+  text-align: center;
+  background-color: #2460a7ff;
+  padding: .5em;
+  font-size: 52px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  border: 0 !important;
+
+}
+.searchFoods{
+  height: 3em;
+  margin-bottom: 2.5em;
+}
+.foodCards{
+  margin-bottom: 1em;
+  border: 0 !important;
+  border-right: .5em solid #2460a7ff !important;
+  border-left: .5em solid #2460a7ff !important;
+  background-image: linear-gradient(180deg, #48c6ef, #2460a7ff, #48c6ef);
+  background-color: #48c6ef !important;
+  border-top-left-radius: 1em !important;
+  border-top-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+}
+.foodProps{
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid white;
+  color: white;
+  margin-bottom: 0 !important;
+  padding-top: .2em;
+  padding-bottom: .2em;
+}
+.bottom{
+  border-top: 0;
+}
+.foodName{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: 0 !important;
+  padding-bottom: 0 !important;
+  /* border-bottom: 1px solid white !important; */
+  background-color: transparent !important;
+}
+.foodFooter{
+  text-align: center;
+  border: 0 !important;
+  margin-left: 0 !important;
+  padding-top: 0 !important;
+  background-color: transparent !important;
+  /* border-top: 1px solid white !important; */
+}
+.addtoMeal{
+  background-color: white !important;
+  color: #2460a7ff !important;
+  font-weight: 600 !important;
+  font-family: sans-serif;
+  margin: .25em;
+}
+.addtoMeal:hover{
+  background-color: white !important;
+  color: #2460a7ff !important;
+}
+.testtest{
+    max-height: calc(44vh - 60px);
+    overflow-y: auto;
+    background-color: #2460a7ff
+}
+.test2{
+  margin-top: 8em;
+  max-height: calc(70vh - 60px);
+  overflow-y: auto;
+  background-color: #2460a7ff;
+  border-top-left-radius: 1em !important;
+  border-top-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+}
+.filterbtns{
+  text-align: center;
+  margin-bottom: .5em;
+}
+.showAll{
+  border: 3px solid #48c6ef !important;
+  color: white !important;
+  font-weight: 600 !important;
+  font-family: sans-serif;
+  font-size: 20px !important;
+  padding: .5em !important;
+  background-color: #2460a7ff !important;
+  border-top-left-radius: 1em !important;
+  border-top-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+}
+.showAll:hover{
+    background-color: #90EE90 !important;
+      color: #2460a7ff !important;
+        border: 3px solid white !important;
+}
+.filterbtns2{
+    padding: .5em !important;
+    padding-right: 1em !important;
+        padding-left: 1em !important;
+}
+.current{
+  background-color: #90EE90 !important;
+  color: #2460a7ff !important;
+  border: 3px solid white !important;
+}
+.missingMeal{
+
+}
+.filterTxt{
+  color: white;
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-bottom: 1em;
+}
+
+
+.confirmFoodCard{
+  color: white !important;
+  background-color: #2460a7ff !important;
+  margin-left: 8%;
+  border: 0 !important;
+}
+.confirmFoodHead{
+  border: 0 !important;
+  margin-top: 1.5em;
+  border-bottom: 1px solid white !important;
+  color: white;
+
+  background-color: transparent !important;
+}
+.confirmTitle{
+  text-align: center;margin-bottom: 1em;
+  font-size: 32px;
+  font-family: sans-serif;
+  margin-bottom: 1.5em !important;
+}
+.foodObject{
+  padding-bottom: 1em !important;
+}
+.nutri{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-right: 1px solid white;
+}
+.nutriError{
+  text-align: center;
+  color: white;
+  padding-left: 1em !important;
+}
+.nutriInputs{
+  background-color: transparent !important;
+  color: white !important;
+  font-family: sans-serif !important;
+  font-size: 20px !important;
+  border: 0 !important;
+    text-align: center;
+}
+.lastNutri{
+  border: 0;
+}
+.nutri2{
+  text-align: center;
+  font-family: sans-serif;
+  color: cyan;
+  font-weight: 500;
+  font-size: 20px;
+  border-right: 1px solid white;
+}
+.diaryEffectHead{
+  border: 1px solid white;
+  padding: .25em;
+  font-size: 20px;
+}
+.diaryEffect{
+  border: 1px solid white;
+  padding: .25em;
+  text-align: center;
+  font-size: 18px;
+}
+.updatedcolor{
+  background-color: #CD5C5C;
+}
+.updatedcolor2{
+  background-color: 	#228B22;
+}
+.mealHead{
+  text-align: center;
+  margin-top: 1.5em;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.mealButtons{
+  text-align: center;
+  margin-top: 2em;
+  font-family: sans-serif;
+  border: 1px solid white !important;
+  color: white !important;
+  font-size: 20px !important;
+  margin-top: 1em !important;
+  margin: 0;
+}
+.mealButtons:hover{
+  background-color: white !important;
+  color: #2460a7ff !important;
+  font-weight: 600;
+}
+.selectedMeal{
+  background-color: white !important;
+  color: #2460a7ff !important;
+  font-weight: bolder !important;
+}
+.mainError{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 1em;
+  font-family: sans-serif;
+}
+.subError{
+  color: white;
+  margin-left: .25em;
+  margin-right: 1em;
+}
+
+
+
+
+
+
+
+.optionBtn1{
+  margin-bottom: 1em;
+  background-color: cyan !important;
+  color: white;
+  font-weight: 600;
+  padding: .5em;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 50%;
+  border-top-left-radius: 2em !important;
+  border-top-right-radius: 2em !important;
+  border-bottom-left-radius: 2em !important;
+  border-bottom-right-radius: 2em !important;
+}
+.optionBtn2{
+  margin-bottom: 1em;
+  background-color: #d11a2a !important;
+  color: white;
+  font-weight: 600;
+  padding: .5em;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-right: 50%;
+  border-top-left-radius: 2em !important;
+  border-top-right-radius: 2em !important;
+  border-bottom-left-radius: 2em !important;
+  border-bottom-right-radius: 2em !important;
+}

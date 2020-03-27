@@ -1,0 +1,110 @@
+/**
+ * @Date:   2020-02-06T09:54:51+00:00
+ * @Last modified time: 2020-03-05T15:36:00+00:00
+ */
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+html, body, #root{
+  height: 100% !important;
+  background-image: linear-gradient(#6f86d6, #48c6ef, cyan) !important;
+  background: fixed;
+}
+
+#root{
+
+}
+#root:hover {
+    background-color: #AD310B;
+    -webkit-transition: red 1000ms linear;
+    -ms-transition: red 1000ms linear;
+    transition: red 1000ms linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.color-nav{
+  background-color: #00458b;
+}
+.navItems{
+  color: white !important;
+}
+.pointNav{
+  margin-top: .25em;
+  margin-left: 5em;
+  font-size: 20px;
+  color: cyan !important;
+}
+.pointNav2{
+  margin-top: .5em;
+  margin-left: 2em;
+  color: white;
+}
+.typePoint{
+    padding-right: .5em;
+}
+.pointNumber{
+  margin-left: .5em;
+  padding: .25em;
+  padding-right: .5em;
+  border: 1px solid white;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.test2{
+padding-left: 0em !important;
+padding-right: 0em !important;
+}
+
+.card-text{
+  text-align: center;
+  padding-bottom: .5em;
+}
+
+.subBtn{
+  margin-left: 12em;
+}
+.smalltxt{
+  margin-bottom: .5em;
+  color: red;
+}
+.test{
+  text-align: center;
+}
+.profile2{
+  text-align: center;
+}

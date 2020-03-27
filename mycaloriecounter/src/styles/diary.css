@@ -1,0 +1,522 @@
+/**
+ * @Date:   2020-02-19T16:01:09+00:00
+ * @Last modified time: 2020-03-05T15:00:18+00:00
+ */
+
+
+ .diaryTop{
+   margin-top: 2em;
+ }
+.diaryHeader{
+  background-color: #2da8d8ff !important;
+  border-top-right-radius: 5em;
+}
+.rightArrow{
+  float: right !important;
+}
+.addFood{
+  float: right;
+}
+.success{
+  color: green !important;
+  font-weight: bold;
+}
+.notSuccess{
+  color: red !important;
+  font-weight: bold;
+}
+
+.entries{
+  width: 5em !important;
+}
+
+.tablehead{
+  border-bottom: 1px solid white !important;
+}
+.date{
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 34px;
+  margin-top: 0em;
+}
+.displayPoints{
+  margin-left: 1.5em;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: green;
+  font-weight: 600;
+}
+.diaryPoints{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 1em;
+  font-family: sans-serif;
+}
+.dp2{
+  margin-top: 0em;
+}
+.displayPoints2{
+  margin-left: 1.5em;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: red;
+  font-weight: 600;
+}
+.lastPoint{
+  margin-left: .2em !important;
+}
+.confirmCard{
+  background-color: #8cdcda;
+  opacity: 90%;
+  padding: 2em;
+  border-top-right-radius: 3.5em !important;
+  border-top-left-radius: 3.5em !important;
+  border-bottom-right-radius: 3.5em !important;
+  border-bottom-left-radius: 3.5em !important;
+}
+.limit1{
+  background-color: #2460a7ff;
+  color: white !important;
+}
+.limits{
+  border: 1px solid #2460a7ff;
+  padding: .45em;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 1em;
+  text-align: center;
+  color: #2460a7ff;
+  font-weight: 600;
+}
+.submittedWarning{
+  font-family: sans-serif;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  color: white;
+}
+.noEntries{
+  color: #2460a7ff;
+  font-size: 18px;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  text-align: center;
+}
+.confirmComplete{
+  background-color: blue !important;
+  color: white !important;
+  font-weight: 600 !important;
+  font-family: sans-serif;
+  padding: .75em !important;
+  font-size: 18px !important;
+  background-color: 		#2460a7ff !important;
+  border-top-right-radius: 1em !important;
+  border-top-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+}
+.cancelComplete{
+  margin-left: 1em;
+  background-color: red !important;
+  color: white !important;
+}
+.confirmComplete:hover{
+  background-color: #2460a7ff !important;
+  border: 2px solid #2da8d8ff;
+  font-weight: 600;
+}
+.alreadySubmitted{
+  position: absolute !important;
+  color: white !important;
+  font-family: sans-serif;
+  padding: .5em !important;
+  font-size: 18px !important;
+  background-color: #2da8d8ff !important;
+  border-top-right-radius: 1em !important;
+  border-top-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+}
+.alreadySubmitted:hover{
+  background-color: #2460a7ff !important;
+  border: 2px solid #2da8d8ff;
+  font-weight: 600;
+}
+.sub2{
+  background-color: #2460a7ff !important;
+  position: absolute !important;
+  margin-left: 11em;
+}
+.sub2:hover{
+  background-color: #2da8d8ff !important;
+  border: 2px solid #2460a7ff;
+  font-weight: 600;
+}
+.confirmCard2{
+  background-color: #8cdcda;
+  opacity: 90%;
+  padding: 2em;
+  border-top-right-radius: 3.5em !important;
+  border-top-left-radius: 3.5em !important;
+  border-bottom-right-radius: 3.5em !important;
+  border-bottom-left-radius: 3.5em !important;
+}
+.removeBorder{
+  border: 0 !important;
+    background-color: #8cdcda !important;
+}
+.entryDelete{
+  float: right;
+  padding-right: 0 !important;
+}
+.removeEntry{
+  color: red;
+}
+.removeEntry:hover{
+  color: #2da8d8ff;
+}
+.Diary{
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 0em;
+  padding-bottom: 1em;
+  margin-top: 0em;
+  opacity: 90%;
+  background-image: linear-gradient(0deg, white, #dbf3fa, #b7e9f7, #92dff3,  #2460a7ff );
+  border-top-right-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  border-bottom-right-radius: 2em !important;
+  border-bottom-left-radius: 2em !important;
+}
+
+
+
+.modalbtns{
+  font-size: 17px !important;
+  padding-left: 1.5em !important;
+  padding-right: 1.5em !important;
+  padding-top: .5em !important;
+  padding-bottom: .5em !important;
+  font-weight: 600 !important;
+  border-top-right-radius: 3.5em !important;
+  border-top-left-radius: 3.5em !important;
+  border-bottom-right-radius: 3.5em !important;
+  border-bottom-left-radius: 3.5em !important;
+}
+.modalbtn1{
+
+  margin-right: 1em;
+  color: white !important;
+  background-color: #F16A70 !important;
+
+}
+.modalbtn2{
+  margin-right: 1em;
+}
+.modalbtn3{
+  background-color: #4D4D4D !important;
+  color: white !important;
+}
+
+table{
+ table-layout: fixed;
+ border-collapse: collapse;
+ width: 100%;
+ background-color: transparent;
+  font-size: 17px;
+
+}
+
+.tablehead tr th:nth-child(1){
+  width: 45%;
+}
+
+td{
+  border: none !important;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.addBtn{
+  margin-top: 4em;
+  color: green;
+  background-color: white;
+  border-top-right-radius: 1em !important;
+  border-top-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+
+}
+.addBtn:hover{
+  color: #2460a7ff;
+  transform: scale(1.1);
+}
+.foodTop{
+  margin-bottom: 2em;
+}
+.foodCard{
+  opacity: 90%;
+  margin-bottom: .5em;
+}
+.foodCardHeader{
+  background-color: #2460a7ff !important;
+  color: white;
+}
+
+.heading
+{
+  margin-top: 2.5em;
+}
+.diarySearchBar{
+  margin-top: .75em;
+  padding: 1em;
+  padding-bottom: 0 !important;
+}
+.diarySearchInput{
+  padding: 1.75em !important;
+  font-size: 18px !important;
+  font-family: sans-serif;
+  color: #2460a7ff !important;
+  border-top-left-radius: 3em !important;
+  border-bottom-left-radius: 3em !important;
+
+}
+.searchError{
+  margin-left: 2.5em;
+  font-weight: 600;
+  font-size: 16px;
+  color: red;
+  font-family: sans-serif;
+}
+.curveSearch{
+  border-left: none !important;
+  border-top-right-radius: 3em !important;
+  border-bottom-right-radius: 3em !important;
+}
+.diarySearchBtn{
+color: #2460a7ff;
+font-size: 18px;
+font-family: sans-serif;
+padding-left: .5em;
+padding-right: .5em;
+
+}
+.dateNav{
+  margin-left: 1em;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nutrition{
+  text-align: center;
+  padding-top: 1.25em !important;
+
+}
+.icons{
+  color: white;
+}
+.icons:hover{
+  color: #2460a7ff;
+}
+.entryNames:hover{
+  font-weight: bolder;
+  transform: scale(1.05);
+}
+.entryNames{
+  padding: none !important;
+}
+.negative{
+  color: red;
+  font-family: inherit;
+  font-weight: 600;
+}
+.positive{
+  color: green;
+  font-family: inherit;
+  font-weight: 600;
+}
+.awards{
+  width: 15em !important;
+  height: 15em !important;
+  align-items: center !important;
+  padding: .5em;
+  background-color: transparent;
+}
+
+.points{
+  text-align: center !important;
+}
+.pointsEarned{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #2460a7ff;
+  border-top: 0 !important;
+  padding: .5em;
+  color: black;
+}
+.null{
+  background-color: #c98181;
+
+}
+.earned{background-color: #81c9a0}
+
+.upcomingRewards{
+  background-color: #2377fc !important;
+  color: green!important;
+  margin-left: 1.6em !important;
+  margin-bottom: 1em !important;
+
+}
+.deleteBtn{
+  float: right;
+  color: red;
+}
+.tableBottom{
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+    border: none !important;
+}
+.removeFood{
+  right: 0 !important;
+    position: absolute !important;
+    margin-right: .5em;
+    margin-top: .2em;
+    color: #2460a7ff;
+}
+.removeFood:hover{
+transform: scale(1.05);
+color: red;
+}
+.bottomLegend{
+  text-align: center !important;
+  padding-top: 1em !important;
+  background-color: #2460a7ff;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  border-right: 2px solid white;
+  font-family: sans-serif;
+}
+.meals{
+  font-size: 20px;
+  color: #0074dd;
+    border-bottom: 1px solid transparent !important;
+    border-top: 1px solid transparent !important;
+}
+.pointHead{
+  color: white;
+  padding-bottom: 10px !important;
+  font-family: sans-serif;
+    font-size: 24px;
+    text-shadow: -1px -1px 0 #2460a7ff, 1px -1px 0 #2460a7ff, -1px 1px 0 #2460a7ff, 2px 2px 0 #2460a7ff;
+}
+
+.upcomingAwards{
+  background-color: #2460a7ff !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-family: sans-serif;
+  padding: .4em !important;
+  border: 1px solid white !important;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-top-right-radius: 1em !important;
+  border-top-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+}
+.upcomingAwards{
+
+}
+
+.totals{
+  font-weight: 600;
+  font-size: 17px;
+  color: #2377fc;
+  border: none;
+  /* border-top: 1px solid white !important; */
+}
+.subtotals{
+  border: 1px solid black !important;
+}
+.subornot{
+  float: left !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  ;
+}
+.pointEarned{
+  position: relative;
+  top: 3em;
+  right: 2.75em;
+  color: red;
+
+}
+
+
+/* Diary Breakdown Styles */
+.breakdownTable{
+  text-align: center;
+  margin-top: 1.5em;
+}
+.breakdownTable td{
+  border-bottom: 1px solid white;
+}
+.breakdownBody{
+  padding-right: 4em !important;
+  background-color: white !important;
+}
+.breakdownHead{
+  padding: 1em !important;
+  background-color: #2460a7ff !important;
+  color: white;
+  border-top-right-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+}
+.breakdownCard{
+  border-top-right-radius: 3em !important;
+  border-top-left-radius: 3em !important;
+  border-bottom-right-radius: 3em !important;
+  border-bottom-left-radius: 3em !important;
+  background-color: transparent !important;
+}
+.breakdownFooter{
+  background-color: #2460a7ff !important;
+  color: white;
+  font-family: sans-serif;
+  border-bottom-right-radius: 2em !important;
+  border-bottom-left-radius: 2em !important;
+}
+.footerHeader{
+  font-size: 28px;
+}
+.footerHeaderBlank{
+padding-top: 1em;
+}
+.footerPoint{
+  font-size: 22px;
+  margin-top: .5em;
+}
+.breakdownNames{
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  border-color: transparent !important;
+}
+.barChart{
+  background-color: white;
+}
+.over{
+  color: red;
+}
+.under{
+  color: green;
+}
+.badgeInfo{
+  padding-bottom: 1em !important;
+}

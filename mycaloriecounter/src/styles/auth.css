@@ -1,0 +1,592 @@
+/**
+ * @Date:   2020-02-18T11:58:02+00:00
+ * @Last modified time: 2020-03-05T15:24:06+00:00
+ */
+
+
+.textAnimation{
+    margin-bottom: 1.2em;
+    position: relative;
+      -webkit-animation-name: intro-cards; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: intro-cards;
+      animation-duration: .4s;
+}
+@keyframes intro-cards {
+  0%   {opacity:0; left:0px; top:200px;}
+  100%  {opacity: 1; left:0px; top:0px;}
+
+}
+/* input{
+  color: white !important;
+} */
+
+
+.regModal{
+  color: #00458B !important;
+  margin-top: .25em !important;
+  font-family: sans-serif !important;
+  font-size: 26px !important;
+  margin-bottom: 1em;
+  font-weight: bold !important;
+}
+.regModal:hover{
+  color: #d9514eff !important;
+}
+.regModal:active{
+  color: cyan;
+  margin-top: .25em;
+}
+.regmodalBtn{
+  float: right !important;
+  margin-left:
+}
+.whitelines{
+  border-right: 1px solid white !important;
+  padding-right: 1.25em;
+}
+.whitelines2{
+  border-right: 1px solid white !important;
+  border-left: 1px solid white !important;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+}
+
+.authBody{
+      background-image: linear-gradient(#f5fcff, #dbf3fa, #b7e9f7, #92dff3, #7ad7f0);
+      padding-bottom: 0 !important;
+}
+
+.pageLeft{
+  float: left;
+}
+.pageRight{
+  float: right;
+}
+
+
+
+
+
+
+
+.btnSpan{
+padding: 0 !important;
+float: left !important;
+padding-left: 1.5em !important;
+padding-top: .25em;
+  color: #00458B;
+  font-size: 18px;
+}
+.btnSpan2{
+
+  margin-left: .5em;
+  color: black;
+  font-size: 18px;
+  padding-top: 1em !important;
+}
+.gamificationBtn{
+  border: 1px solid #00458B !important;
+  padding-left: 2em !important;
+  margin-right: .25em;
+  font-family: sans-serif;
+  padding-right: 2em !important;
+      font-size: 17px !important;
+      border-radius: 0 !important;
+      border-top-left-radius: 1em !important;
+      border-bottom-left-radius: 1em !important;
+      background-color: #00458B !important;
+      color : white !important;
+      border-top-right-radius: 1em !important;
+      border-bottom-right-radius: 1em !important;
+}
+
+.infoModalBtn{
+  padding-left: 1em;
+}
+
+
+.onBtn{
+  border: 1px solid green !important;
+}
+.offBtn{
+  background-color: transparent !important;
+  color: #00458B !important;
+  font-weight: 600 !important;
+}
+.btnSpace{
+  padding-right: 0 !important;
+
+}
+.infoBtn{
+  margin-top: .5em;
+  color: #00458B;
+}
+.infoBtn:hover{
+  color: orange;
+  transform: scale(1.1);
+}
+.gamingIcon{
+  margin-right: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.test{
+  margin-left: 1em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+
+/* CSS for landing page */
+.landing1,.landing2,.landing3{
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+  color: white !important;
+  border-radius: 2em !important;
+  padding: .75em !important;
+  font-size: 20px !important;
+  font-weight: bolder !important;
+}
+.landingContainer{
+  background: linear-gradient(-45deg, #000b18, #00172d, #3FD2C7, #02386E, #00498D, #0052A2);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  opacity: 75%;
+  padding: 1em;
+  padding-bottom: 2em;
+  margin-top: 5em;
+  border-top-right-radius: 4.5em !important;
+  border-top-left-radius: 4.5em !important;
+  border-bottom-right-radius: 3em !important;
+  border-bottom-left-radius: 3em !important;
+}
+.toggleGamification{
+  margin-top: .5em;
+  padding: .5em !important;
+  font-size: 20px !important;
+  margin-right: .2em;
+  color: white !important;
+  font-family: sans-serif;
+  font-weight: bold !important;
+  border-top-right-radius: 2.5em !important;
+  border-top-left-radius: 2.5em !important;
+  border-bottom-right-radius: 2.5em !important;
+  border-bottom-left-radius: 2.5em !important;
+}
+.gamingElements{
+  font-size: 32px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+.Off{
+  background-color: red !important;
+}
+.On{
+  background-color: green !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.landing1{
+  margin-right: .5em;
+  background-color: #0074dd !important;
+}
+.landing2{
+  margin-left: .5em;
+  background-color: #d9514eff !important;
+}
+.landing3{
+  margin-left: .5em;
+  background-color: #2a2b2dff !important;
+}
+.landingInfo{
+  margin-top: 3em;
+  padding: 1em;
+  background-color: white;
+}
+.landingText{
+  color: white;
+    font-family: sans-serif;
+}
+.head1{
+  color: white !important;
+  opacity: 100% !important;
+}
+.head2{
+  color: white !important;
+  opacity: 100% !important;
+}
+
+.searchBar{
+  color: white !important;
+  background-color: #2da8d8ff !important;
+  border: 1px solid #d9514eff !important;
+}
+.searchBar:hover{
+  color: white !important;
+  background-color: #d9514eff !important;
+  border: 1px solid #2da8d8ff !important;
+}
+.loginHead{
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.registerCardHead{
+  color: white;
+  background-color: #00458B !important;
+  border-top: .5em solid #00458B;
+  border-bottom: .25em solid #7F8688 !important;
+  border-top-right-radius: 3.5em !important;
+  border-top-left-radius: 3.5em !important;
+
+}
+.registerCard{
+  background-color: #99DDFF !important;
+  opacity: 90%;
+  border: 0 !important;
+  /* border-bottom: 2.5em solid # !important; */
+  border-top-right-radius: 4.5em !important;
+  border-top-left-radius: 4.5em !important;
+  border-bottom-right-radius: 3em !important;
+  border-bottom-left-radius: 3em !important;
+}
+.loginFooter{
+  background-color: #00458B !important;
+  padding-bottom: 2em !important;
+  border-bottom-right-radius: 3em !important;
+  border-bottom-left-radius: 3em !important;
+}
+.registerFooter{
+  background-color: #00458B !important;
+  border-bottom-right-radius: 3em !important;
+  border-bottom-left-radius: 3em !important;
+}
+
+
+.splitForm{
+  background-color: #d9514eff !important;
+  margin-left: 1.5em !important;
+  margin-right: 1.5em !important;
+  margin-bottom: 1.5em !important;
+  margin-top: 1.5em !important;
+}
+.pageGreeting{
+  margin-top: .4em;
+  margin-bottom: .4em;
+  font-size: 5em;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.pageGreeting.subGreeting{
+  font-size: 4em;
+  font-family: sans-serif;
+}
+.inputGroupsLeft{
+  padding-left: 1em;
+}
+.inputGroupsRight{
+  padding-right: 1em;
+}
+.inputGroupsBoth{
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.registerInputs{          /*Remove borders from input fields in form */
+  border: 0 !important;
+  border-bottom: 1px solid #7F8688 !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+
+}
+.required{
+  color: red;
+  padding-left: .3em;
+  font-size: 16px;
+}
+.submitButton{
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #2da8d8ff !important;
+  border: 1px solid #00458B !important;
+  padding-bottom: .25em;
+  padding-top: .25em;
+  border-top-right-radius: 1.5em !important;
+  border-top-left-radius: 1.5em !important;
+  border-bottom-right-radius: 1.5em !important;
+  border-bottom-left-radius: 1.5em !important;
+}
+.submitButton:hover{
+  background-color: #3FD2C7 !important;
+}
+.registerInputs::placeholder{
+  color: #00458B !important;
+  font-size: 18px;
+}
+.reactIcons{
+  background-color: transparent;
+  color: #00458B;
+}
+.reactIcons:hover{
+  color: #d9514eff;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+.reactIconsContainer{
+  background-color: transparent !important;
+  border: 0 !important;
+  border-bottom: 1px solid #7F8688 !important;
+  padding-right: 1em !important;
+  border-radius: 0 !important;
+}
+.addFoodPrepends{
+  border: 1px solid white !important;
+  color: white !important;
+  font-size: 20px;
+  background-color: transparent !important;
+  padding-right: .75em !important;
+  border-radius: 0 !important;
+  margin-bottom: .5em !important;
+}
+.addFoodAppends{
+  border: 1px solid white !important;
+  color: white !important;
+  font-size: 20px;
+  background-color: transparent !important;
+  padding-right: 1em !important;
+  border-radius: 0 !important;
+  margin-bottom: .5em !important;
+}
+.addFoodHeader{
+  font-family: sans-serif;
+  color: white;
+}
+.subHeadDate{
+  color: #99DDFF;
+}
+.addFoodCard{
+  border-top-left-radius: 3.5em !important;
+  border-top-right-radius: 3.5em !important;
+  margin-top: 15%;
+  padding: 2em;
+  background: linear-gradient(180deg, #00458B, #00458B, #99DDFF );
+  opacity: 90%;
+  border: 0 !important;
+  /* border-bottom: 2.5em solid # !important; */
+  border-bottom-left-radius: 3.5em !important;
+  border-bottom-right-radius: 3.5em !important;
+}
+.addFoodFooter{
+  border: 0 !important;
+  background-color: transparent !important;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.addFoodBtn{
+  margin-top: 1em;
+  background-color: white !important;
+  font-family: sans-serif;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: .75em !important;
+}
+.confirmBtn{
+  margin-top: 1em;
+  background-color: green !important;
+  color: white !important;
+  font-family: sans-serif;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: .75em !important;
+}
+
+.footerTotals{
+  margin-bottom: 2em;
+}
+.addFoodInputs{          /*Remove borders from input fields in form */
+  border: 1px solid white !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  margin-bottom: 8px !important;
+  box-shadow: none !important;
+}
+.addBody{
+  padding-bottom: 0 !important;
+}
+.currentTotals{
+  padding: 0 !important;
+  text-align: center;
+  padding: .25em !important;
+  color: #00458B;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 1px solid white;
+}
+.updatedDiary{
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 26px;
+  border-top: 1px solid white;
+;
+}
+.diaryText{
+  margin-top: 1em;
+}
+.negativeTarget{
+color: white;
+font-size: 15px;
+}
+.addErrors{
+  text-align: center;
+
+}
+
+.currentHeads{
+  border: 1px solid white;
+  color: #00458B;
+  font-family: sans-serif;
+  padding: .25em;
+  font-weight: bold;
+  border-right: 0 !important;
+}
+.leftPad{
+  padding-left: 1em;
+}
+.diaryDate{
+  color: white;
+  font-family: sans-serif;
+  padding: .2em;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+.error{
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: .25em;
+}
+.needed{
+  color:  red;
+  padding-left: .5em;
+  font-weight: bolder;
+}
+
+.gamingRow{
+  border-bottom: .1px solid #7F8688;
+  padding-bottom: 1.8em;
+  padding-top: .5em;
+  padding-left: 0;
+}
+
+.registerErrors{
+  text-align: left;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  color: red;
+  font-family: sans-serif;
+}
+.registerErrors2{
+  text-align: left;
+  margin-left: 2em;
+  padding-bottom: 1em;
+  color: red;
+  font-family: sans-serif;
+}
+.accountExistsError{
+  color: red;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.navtoLogin{
+  color: white !important;
+  font-family: sans-serif;
+  margin-bottom: 0 !important;
+  margin-top: 2em;
+}
+.loginLink{
+  margin-left: .3em;
+  color: #2da8d8ff;
+  font-weight: 600;
+}
+
+.samelineSpace{
+  margin-left:2em;
+}
+.page2Head{
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.measureBtns{
+  margin-right: 1em;
+  margin-bottom: .25em;
+  margin-top: .25em;
+  border-top-right-radius: 1.5em !important;
+  border-top-left-radius: 1.5em !important;
+  border-bottom-right-radius: 1.5em !important;
+  border-bottom-left-radius: 1.5em !important;
+}
+.activeBtn{
+  border: 2px solid green !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+select.addFoodInputs {color: white; background-color: red;}
+option.addFoodInputs  {color: #00458B !important;   font-size: 18px;}
+input.addFoodInputs {color: white !important;   font-size: 18px;}
+select.registerInputs  {color: #00458B !important;   font-size: 18px;}
+option.registerInputs  {color: #00458B !important;   font-size: 18px;}
+input.registerInputs {color: #00458B !important;   font-size: 18px;}
